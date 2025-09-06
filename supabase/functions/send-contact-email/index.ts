@@ -45,7 +45,7 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Portfolio Contact <noreply@yourdomain.com>',
+        from: 'Portfolio Contact <noreply@resend.dev>', // Use Resend's test domain or your verified domain
         to: ['hk3865799@gmail.com'], // Your email address
         subject: `New Contact Form Message from ${name}`,
         html: `
