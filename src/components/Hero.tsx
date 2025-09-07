@@ -33,7 +33,7 @@ const Hero = () => {
           {/* Left Content */}
           <div className="text-center lg:text-left">
             <motion.div variants={itemVariants} className="mb-6">
-              <div className="w-24 h-24 mx-auto lg:mx-0 mb-6 rounded-full overflow-hidden border-4 border-primary shadow-glow">
+              <div className="w-32 h-32 mx-auto lg:mx-0 mb-6 rounded-full overflow-hidden border-4 border-primary shadow-glow">
                 <img 
                   src={profilePhoto} 
                   alt="Mohammad Hafeez Khan" 
